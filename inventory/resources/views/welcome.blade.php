@@ -109,7 +109,7 @@
           <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#proCol"
               aria-expanded="true" aria-controls="proCol">
-              
+
               <i class="fab fa-product-hunt"></i>
               <span>Product</span>
             </a>
@@ -191,7 +191,7 @@
 
 
 
-<!-- 
+<!--
           <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForm" aria-expanded="true"
               aria-controls="collapseForm">
@@ -432,8 +432,8 @@
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   <img class="img-profile rounded-circle" src="{{ asset('backend/img/boy.png') }}" style="max-width: 60px">
-                  <span class="ml-2 d-none d-lg-inline text-white small">Sabbir</span>
-                  
+                  <span class="ml-2 d-none d-lg-inline text-white small">Angry Red</span>
+
                 </a>
                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                   <a class="dropdown-item" href="#">
@@ -458,7 +458,7 @@
 
           <!-- Container Fluid-->
           <div class="container-fluid" id="container-wrapper">
-            
+
 
             <router-view></router-view>
 
@@ -470,7 +470,7 @@
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
             <span>copyright &copy; <script> document.write(new Date().getFullYear()); </script> - developed by
-              <b><a href="https://github.com/sabbirhossain540" target="_blank">Md Sabbir Hossain</a></b>
+              <b><a href="https://github.com/angryred027" target="_blank">Angry Red</a></b>
             </span>
           </div>
         </div>
@@ -500,11 +500,11 @@
       $("#sidebar").css("display","");
       $("#topbar").css("display","")
     }
-  </script> 
+  </script>
   <script src="{{ asset('backend/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
   <script src="{{ asset('backend/js/ruang-admin.min.js') }}"></script>
   <script src="{{ asset('backend/vendor/chart.js/Chart.min.js') }}"></script>
-  <script src="{{ asset('backend/js/demo/chart-area-demo.js') }}"></script> 
+  <script src="{{ asset('backend/js/demo/chart-area-demo.js') }}"></script>
 
 
 </body>
